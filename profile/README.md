@@ -12,7 +12,7 @@ nekoman is a software company. We build and maintain our own software products a
 
 ### Hick
 
-<img src="hick-banner.png" alt="Hick" height="120" />
+<img src="hick-banner.png" alt="Hick" height="258" />
 
 Mobile app that builds a content strategy for people who want to build a personal brand. It helps users turn rough ideas into structured short-form video projects, plan them, and take them through to a finished video.
 
@@ -22,7 +22,7 @@ Mobile app that builds a content strategy for people who want to build a persona
 
 ### Asterism
 
-<img src="asterism-banner.png" alt="Asterism" height="120" />
+<img src="asterism-banner.png" alt="Asterism" height="258" />
 
 SSH client with a self-hosted backend, built for small teams. Runs as a desktop app on macOS and Linux.
 
