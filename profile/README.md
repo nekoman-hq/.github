@@ -10,7 +10,9 @@ nekoman is a software company. We build and maintain our own software products a
 
 ## Projects
 
-### Hick <img src="hick-dark-1.png" alt="Hick logo" height="28" align="absmiddle" />
+### Hick
+
+<img src="hick-dark-1.png" alt="Hick" height="110" />
 
 Mobile app that builds a content strategy for people who want to build a personal brand. It helps users turn rough ideas into structured short-form video projects, plan them, and take them through to a finished video.
 
@@ -29,7 +31,9 @@ The shared backend platform that our other projects build on. Services use the p
 - **platform-gradle-plugin**: Gradle plugins used to build the platform
 - Status: in development
 
-### Asterism <img src="asterism-banner.png" alt="Asterism logo" height="28" align="absmiddle" />
+### Asterism
+
+<img src="asterism-banner.png" alt="Asterism" height="110" />
 
 SSH client with a self-hosted backend, built for small teams. Runs as a desktop app on macOS and Linux.
 
