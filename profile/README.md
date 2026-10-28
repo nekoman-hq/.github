@@ -12,12 +12,25 @@ nekoman is a software company. We build and maintain our own software products a
 
 ### Hick
 
-<img src="hick-dark-1.png" alt="Hick" height="110" />
+<img src="hick-dark-1.png" alt="Hick" height="120" />
 
 Mobile app that builds a content strategy for people who want to build a personal brand. It helps users turn rough ideas into structured short-form video projects, plan them, and take them through to a finished video.
 
 - Monorepo with a mobile app (Expo / React Native), a desktop and web app (Tauri), a marketing website, and an API
 - Local-first sync with PowerSync, file storage on S3
+- Status: in development
+
+### Asterism
+
+<img src="asterism-banner.png" alt="Asterism" height="120" />
+
+SSH client with a self-hosted backend, built for small teams. Runs as a desktop app on macOS and Linux.
+
+- SSH and SFTP with a built-in file browser
+- Shared vaults for team secrets, with end-to-end encrypted storage
+- Server and network items that are discovered passively and shown as a topology map
+- Local-first: each device keeps a local SQLite copy and syncs with the team backend
+- Stack: Tauri with TypeScript on the client, Rust and Postgres on the backend
 - Status: in development
 
 ### API Platform
@@ -31,22 +44,9 @@ The shared backend platform that our other projects build on. Services use the p
 - **platform-gradle-plugin**: Gradle plugins used to build the platform
 - Status: in development
 
-### Asterism
-
-<img src="asterism-banner.png" alt="Asterism" height="110" />
-
-SSH client with a self-hosted backend, built for small teams. Runs as a desktop app on macOS and Linux.
-
-- SSH and SFTP with a built-in file browser
-- Shared vaults for team secrets, with end-to-end encrypted storage
-- Server and network items that are discovered passively and shown as a topology map
-- Local-first: each device keeps a local SQLite copy and syncs with the team backend
-- Stack: Tauri with TypeScript on the client, Rust and Postgres on the backend
-- Status: in development
-
 ### IceSportMaster
 
-Real-time AI system for ice stock sport (Eisstockschießen). Detects and segments the stocks on the court from camera images and runs on an NVIDIA Jetson Orin Nano.
+Real-time AI system for ice stock sport (Eisstockschießen). Detects and segments the stocks on the court from camera images and runs on NVIDIA Jetson Orin Nanos.
 
 - Custom annotated dataset, RF-DETR models for detection and instance segmentation
 - OpenCV for camera calibration, TensorRT for deployment
