@@ -12,7 +12,7 @@ nekoman is a software company. We build and maintain our own software products a
 
 ### Hick
 
-<img src="hick-dark-1.png" alt="Hick" height="120" />
+<img src="hick-banner.png" alt="Hick" height="120" />
 
 Mobile app that builds a content strategy for people who want to build a personal brand. It helps users turn rough ideas into structured short-form video projects, plan them, and take them through to a finished video.
 
