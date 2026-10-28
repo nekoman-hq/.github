@@ -1,91 +1,69 @@
 <div align="center">
   <img alt="Nekoman Logo" height="500" src="nekoman-transparent-with-font.png" width="500"/>
-  <p>Building software with intention, not noise.</p>
 </div>
 
 ---
 
-**nekoman** is a software organization focused on building individual, high-quality projects across both open-source and proprietary ecosystems.
+# nekoman
 
-We believe in pragmatic engineering, clean architecture, and sharing knowledge where it makes sense—while also delivering production-ready solutions for real-world use cases.
+nekoman is a software company. We build and maintain our own software products and platforms, and we also give training talks on software topics. Each project lives in its own repository (or monorepo) with its own documentation and release cycle. Some repositories are open source, others are proprietary.
 
-## 🌍 What We Do
+## Projects
 
-- Develop custom, purpose-driven software projects
+### Hick <img src="hick-logo.png" alt="Hick logo" height="28" align="absmiddle" />
 
-- Maintain and contribute to open-source libraries and tools
+Mobile app that builds a content strategy for people who want to build a personal brand. It helps users turn rough ideas into structured short-form video projects, plan them, and take them through to a finished video.
 
-- Build and operate proprietary platforms and products
+- Monorepo with a mobile app (Expo / React Native), a desktop and web app (Tauri), a marketing website, and an API
+- Local-first sync with PowerSync, file storage on S3
+- Status: in development
 
-- Focus on long-term maintainability, scalability, and developer experience
+### API Platform
 
-Our projects range from experimental ideas to fully productionized systems.
+The shared backend platform that our other projects build on. Services use the platform's starters instead of re-implementing common functionality, and each service keeps its own documentation site.
 
-## 🚆 Main Focus: Trainity
+- **Identity**: accounts, organizations, and sign-in (email, Google, Apple, passkeys). Billing via Stripe is planned as a module inside Identity.
+- **Bootstrap starter and projection framework**: the common structure every service is built on
+- **Docs service**: collects the documentation of the platform and its services
+- **Identity SDK**: TypeScript client generated from the OpenAPI specs, for React Native, React, and Tauri
+- **platform-gradle-plugin**: Gradle plugins used to build the platform
+- Status: in development
 
-Our primary project is Trainity:
+### Asterism <img src="asterism-logo.png" alt="Asterism logo" height="28" align="absmiddle" />
 
-- GitHub: https://github.com/Trainity-net
+SSH client with a self-hosted backend, built for small teams. Runs as a desktop app on macOS and Linux.
 
-- Website: https://trainity.net
+- SSH and SFTP with a built-in file browser
+- Shared vaults for team secrets, with end-to-end encrypted storage
+- Server and network items that are discovered passively and shown as a topology map
+- Local-first: each device keeps a local SQLite copy and syncs with the team backend
+- Stack: Tauri with TypeScript on the client, Rust and Postgres on the backend
+- Status: in development
 
-Trainity is an actively developed platform with a strong focus on:
+### IceSportMaster
 
-- Reliability and performance
+Real-time AI system for ice stock sport (Eisstockschießen). Detects and segments the stocks on the court from camera images and runs on an NVIDIA Jetson Orin Nano.
 
-- Clear APIs and well-structured codebases
+- Custom annotated dataset, RF-DETR models for detection and instance segmentation
+- OpenCV for camera calibration, TensorRT for deployment
+- Developed as a diploma project and customer project
 
-- Building the modern fitness plattform of the future
+## Deprecated
 
-Trainity represents our core engineering philosophy and serves as the foundation for many of our technical decisions and standards.
+These projects are no longer developed. Their repositories are kept for reference.
 
-## 🔓 Open Source & Proprietary
+- **Trainity**: fitness app for gym, running, and calorie tracking
+- **Neko CLI**: our earlier command-line tool, discontinued
+- Other older repositories and experiments
 
-nekoman works in both worlds:
+## Licensing
 
-**Open Source**
+Open-source repositories contain a license file. Proprietary repositories are marked as such in their README. Check the repository before using any code.
 
-- Transparent development
+## Contributing
 
-- Clean documentation and reproducible builds
+For open-source repositories, read the repository's README and contribution notes, then open an issue or pull request describing the change. For larger changes, start a discussion first.
 
-**Proprietary**
+## Contact
 
-- Tailored solutions for specific needs
-
-- Strong focus on security and stability
-
-- Built on top of the same engineering principles we apply to open source
-
-## 🤝 Contributing
-
-We welcome contributions to our open-source projects.
-
-If you want to contribute:
-
-**1** - Check the individual repository README
-
-**2** -  Follow the contribution guidelines
-
-**3** - Open an issue or pull request with clear context
-
-For larger ideas or collaborations, feel free to start a discussion.
-
-## 📄 Licensing
-
-Licensing depends on the individual project:
-
-- Open-source projects include their license in the repository
-
-- Proprietary projects are explicitly marked as such
-
-Always check the repository license before using code.
-
-## 📫 Contact
-
-Organization: nekoman
-
-Main Project: Trainity (https://trainity.net)
 Email: office@nekoman.at
-
-Further contact details may be provided in individual repositories.
